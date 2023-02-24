@@ -1,0 +1,40 @@
+
+body{
+  background-color: rgb(174, 80, 236);
+  /* background-image: linear-gradient(to bottom right,purple,blue); */
+
+}
+.App{
+  background-color: #3f3160;
+  min-height: 500px;
+  width: 400px;
+  margin: 100px auto;
+  padding-bottom: 3px;
+}
+#to-do-list input{
+  background-color: rgb(49, 172, 210);
+  height: 50px;
+  width: 220px;
+  margin: 20px;
+  padding: 0 20px;
+  font-size: 18px;
+  border: 0;
+  border-radius: 8px;
+  color: aliceblue;
+}
+#to-do-list input::placeholder{
+  color: rgb(234, 228, 228);
+}
+#to-do-list button{
+  height: 50px;
+  width: 75px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight:500;
+}
+#to-do-list button:hover{
+  background-color: rgb(243, 184, 36);
+  color: aliceblue;
+  
+}

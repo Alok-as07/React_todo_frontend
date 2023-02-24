@@ -1,0 +1,18 @@
+.List{
+    background-color: rgb(199, 242, 255);
+    height: 50px;
+    width: 310px;
+    margin: 20px ;
+    margin-top: 0;
+    padding: 0 20px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 8px;
+    color: black;
+}
+.List p{
+    margin: auto;
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 20px;
+}
